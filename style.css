@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.one li a {
+    color: #fff !important;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-nav li a {
+        margin-left: -5px;
+        color: orange !important;
+    }
+
+}
+
+.card .card-img-overlay {
+    padding-top: 100px;
+}
+
+.card .card-img-overlay p {
+    margin-inline: 200px;
+}
+
+@media screen and (max-width: 840px) {
+    .card .card-img-overlay p {
+        margin-inline: 10px;
+    }
+
+    .col-md-3 {
+        padding-bottom: 60px;
+    }
+
+}
+
+.card .img-body {
+    background-color: #427326;
+    color: #fff;
+}
+
+.card .card-2 {
+    margin-block: 70px;
+}
+
+#image-group {
+    opacity: 0.2 pink;
+
+}
+
+#image-group .card-img {
+    padding: 100px 150px 100px 150px;
+}
+
+#image-group .card-img-overlay {
+    background: #FBE8E8;
+    background-color: #fcc3c350;
+}
+
+.card .card-img-overlay .btn {
+    border-radius: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    #image-group .card-img {
+        height: 130vh !important;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    #image-group .card-img {
+        height: 150vh !important;
+        padding-top: 10px;
+    }
+}
+
+#image-group1 .card-img-overlay {
+    background: #d9111b;
+    background-color: #fc091573;
+}
+
+.email-box input{
+    border-radius: 0px 20px 0px 20px;
+}
+.main-btn .btn-light{
+border-radius: 0px 20px 0px 20px;
+height: 60px;
+width: auto !important;
+}
+.footer-section{
+    font-size: 20px;
+   
+}
+.footer-section ul li a , li{
+   list-style: none;
+   text-decoration: none;
+   color: black !important;
+   margin-top: 10px;
+}
